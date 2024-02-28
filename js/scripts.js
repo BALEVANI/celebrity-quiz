@@ -32,6 +32,20 @@ $(document).ready(function () {
         else if (question1 === "Purple" && question2 === "Gray") {
             $("#main").hide()
             $("#result1").hide()
+            $("#result3").hide()
+            $("#result2").show()
+        }
+
+        else if (question5 === "More often" && question3 === "Green") {
+            $("#main").hide()
+            $("#result1").hide()
+            $("#result3").show()
+            $("#result2").hide()
+        }
+
+        else if (question3 === "Happy" && question3 === "Green") {
+            $("#main").hide()
+            $("#result1").hide()
             $("#result3").show()
             $("#result2").hide()
         }
