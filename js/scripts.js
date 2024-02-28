@@ -64,7 +64,7 @@ $(document).ready(function () {
             $("#result2").hide()
         }
 
-        else if (question1 === "Black" && question3 === "Athletic") {
+        else if (question2 === "Green" && question4 === "") {
             $("#main").hide()
             $("#result1").hide()
             $("#result3").show()
