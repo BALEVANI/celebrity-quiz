@@ -1,0 +1,115 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+}
+img{
+    display: block;
+}
+
+#container{
+    width: 800px;
+    height: 100%;
+}
+.question{
+   box-shadow: -5px -5px 10px rgb(0 0 0 /0.2);
+    border-radius: 10px;
+    width: 100%;
+    height: 500px;
+    margin-top: 20px;
+    padding: 10px;
+}
+#img-cont{
+    border-bottom: 2px solid #857373be;
+    padding: 10px;
+    margin: 5px;
+}
+.image{
+    height: 250px;
+    width: 350px;
+}
+.ques-img{
+display: flex;
+justify-content: center;
+}
+
+.radio-box{
+    height: 50px;
+    width: 350px;
+    border: 2px solid #857373be;
+    margin: 10px;
+    padding: 10px;
+}
+.radio-cont{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 20px;
+}
+ 
+#logo{
+    height: 100px;
+    width: 100px;
+}
+input{
+    height: 20px;
+    height: 20px;
+}
+#match{
+    width: 100%;
+    height: 50px;
+    background-color: red;
+    border: none;
+    margin-bottom: 10px;
+} 
+
+
+#match:hover{
+    background-color: rgba(255, 0, 0, 0.651);
+}
+
+
+
+.result{
+    display: none;
+}
+
+.bayo{
+    margin-left: 200px;
+    font-size: 50px;
+}
+
+.wizkid{
+    height: 500px;
+    margin-left: 100px;
+    margin-top: 50px;
+}
+
+.pwizkid{
+    font-size: 50px;
+}
+
+.davido{
+    height: 500px;
+    margin-left: 100px;
+    margin-top: 50px;
+}
+
+.pdavido{
+    font-size: 50px;
+}
+
+.burna{
+    height: 500px;
+    margin-left: 100px;
+    margin-top: 50px;
+}
+
+.pburna{
+    font-size: 50px; 
+}
