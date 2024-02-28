@@ -45,8 +45,8 @@ $(document).ready(function () {
 
         else if (question3 === "Happy" && question3 === "Green") {
             $("#main").hide()
-            $("#result1").hide()
-            $("#result3").show()
+            $("#result1").show()
+            $("#result3").hide()
             $("#result2").hide()
         }
 
