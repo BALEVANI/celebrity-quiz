@@ -29,11 +29,18 @@ $(document).ready(function () {
             $("#result2").hide()
         }
 
-        else {
+        else if (question1 === "Purple" && question2 === "Gray") {
             $("#main").hide()
             $("#result1").hide()
+            $("#result3").show()
+            $("#result2").hide()
+        }
+
+        else {
+            $("#main").hide()
+            $("#result1").show()
             $("#result3").hide()
-            $("#result2").show()
+            $("#result2").hide()
         }
     })
 })
