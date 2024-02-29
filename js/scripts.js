@@ -7,7 +7,7 @@ $(document).ready(function () {
         const question4 = $("input:radio[name = question4]:checked").val()
         const question5 = $("input:radio[name = question5]:checked").val()
 
-        if (question1 === "Black" && question2 === "Brown" && question3 === "Happy" && question4 === "Green" && question5 === "Not at all") {
+        if (question1 === "Black" && question3 === "Happy") {
             $("#main").hide()
             $("#result3").hide()
             $("#result2").hide()
@@ -64,11 +64,11 @@ $(document).ready(function () {
             $("#result2").hide()
         }
 
-        else if (question2 === "Green" && question3 === "Happy" && question5 === "Less often") {
+        else if (question2 === "Green" && question4 === "Green") {
             $("#main").hide()
             $("#result1").hide()
-            $("#result3").hide()
-            $("#result2").show()
+            $("#result3").show()
+            $("#result2").hide()
         }
 
         else {
