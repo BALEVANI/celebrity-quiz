@@ -64,11 +64,11 @@ $(document).ready(function () {
             $("#result2").hide()
         }
 
-        else if (question2 === "Green" && question4 === "Green") {
+        else if (question2 === "Green" && question3 === "Happy" && question5 === "Less often") {
             $("#main").hide()
             $("#result1").hide()
-            $("#result3").show()
-            $("#result2").hide()
+            $("#result3").hide()
+            $("#result2").show()
         }
 
         else {
