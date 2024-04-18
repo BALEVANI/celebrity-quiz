@@ -11,8 +11,8 @@ Celebrity Website
 * html
 * css
 * javascript
-* box-icon
-* google font
+* bootstrap
+* jquery
 
 ## Description
 This is a website for Celebrity that allows users to select and choose the perfect match for them on it.
